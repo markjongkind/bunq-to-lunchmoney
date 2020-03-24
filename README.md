@@ -35,7 +35,7 @@ bunqIsCompany = false;
 ```
 ```php
 // Visit https://my.lunchmoney.app/developers to request an access token
-unchMoneyAccessToken = '[YOUR LUNCH MONEY ACCESS TOKEN]';
+lunchMoneyAccessToken = '[YOUR LUNCH MONEY ACCESS TOKEN]';
 ```
 ```php
 // It's possible to map your bunq accounts to your Lunch Money accounts (Assets)

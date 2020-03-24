@@ -14,7 +14,8 @@ In order to start syncing transactions to Lunch Money, please update the `config
 
 ```php
 // Enter your bunq API key
-// Go to bunq app and click the profile tab, go to 'Security & Settings' and then 'Developers'
+// Go to bunq app and click the profile tab
+// Tap 'Security & Settings' and then 'Developers'
 // Go to 'API Keys' and click the plus icon
 bunqApiKey = '[YOUR BUNQ API KEY]';
 ```
@@ -33,7 +34,7 @@ bunqIsSandbox = true;
 bunqIsCompany = false;
 ```
 ```php
-// Visit [https://my.lunchmoney.app/developers](https://my.lunchmoney.app/developers) to request an access token
+// Visit https://my.lunchmoney.app/developers to request an access token
 unchMoneyAccessToken = '[YOUR LUNCH MONEY ACCESS TOKEN]';
 ```
 ```php

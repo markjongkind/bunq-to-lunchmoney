@@ -156,6 +156,7 @@ function getBunqTransactions()
                     'amount' => $Payment->getAmount()->getValue(),
                     'notes' => trim(preg_replace('/\s+/', ' ', $Payment->getDescription())),
                     'payee' => $Payment->getCounterpartyAlias()->getDisplayName(),
+                    'currency' => strtolower($Payment->getAmount()->getCurrency()),
                 ];
 
                 if( is_array(lunchMoneyMapping) && count(lunchMoneyMapping) > 0 && isset(lunchMoneyMapping[$MonetaryAccountBankId]) )
